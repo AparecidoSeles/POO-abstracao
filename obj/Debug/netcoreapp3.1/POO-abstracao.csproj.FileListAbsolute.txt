@@ -1,0 +1,13 @@
+C:\Users\Ariel\OneDrive\Desktop\junior senai\POO-abstracao\bin\Debug\netcoreapp3.1\POO-abstracao.exe
+C:\Users\Ariel\OneDrive\Desktop\junior senai\POO-abstracao\bin\Debug\netcoreapp3.1\POO-abstracao.deps.json
+C:\Users\Ariel\OneDrive\Desktop\junior senai\POO-abstracao\bin\Debug\netcoreapp3.1\POO-abstracao.runtimeconfig.json
+C:\Users\Ariel\OneDrive\Desktop\junior senai\POO-abstracao\bin\Debug\netcoreapp3.1\POO-abstracao.runtimeconfig.dev.json
+C:\Users\Ariel\OneDrive\Desktop\junior senai\POO-abstracao\bin\Debug\netcoreapp3.1\POO-abstracao.dll
+C:\Users\Ariel\OneDrive\Desktop\junior senai\POO-abstracao\bin\Debug\netcoreapp3.1\POO-abstracao.pdb
+C:\Users\Ariel\OneDrive\Desktop\junior senai\POO-abstracao\obj\Debug\netcoreapp3.1\POO-abstracao.csprojAssemblyReference.cache
+C:\Users\Ariel\OneDrive\Desktop\junior senai\POO-abstracao\obj\Debug\netcoreapp3.1\POO-abstracao.AssemblyInfoInputs.cache
+C:\Users\Ariel\OneDrive\Desktop\junior senai\POO-abstracao\obj\Debug\netcoreapp3.1\POO-abstracao.AssemblyInfo.cs
+C:\Users\Ariel\OneDrive\Desktop\junior senai\POO-abstracao\obj\Debug\netcoreapp3.1\POO-abstracao.csproj.CoreCompileInputs.cache
+C:\Users\Ariel\OneDrive\Desktop\junior senai\POO-abstracao\obj\Debug\netcoreapp3.1\POO-abstracao.dll
+C:\Users\Ariel\OneDrive\Desktop\junior senai\POO-abstracao\obj\Debug\netcoreapp3.1\POO-abstracao.pdb
+C:\Users\Ariel\OneDrive\Desktop\junior senai\POO-abstracao\obj\Debug\netcoreapp3.1\POO-abstracao.genruntimeconfig.cache
