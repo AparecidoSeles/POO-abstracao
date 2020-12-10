@@ -6,7 +6,13 @@ namespace POO_abstracao.classes
     {
         //ATRIBUTOS
         private DateTime data;
+        public DateTime Data{
+            get{ return DateTime.Now;}              // chamar o dia (DateTime.Now) 
+        }
         protected float valor;
+        public float Valor {
+            get ;set;
+        }
 
         //MÉTODOS
 
@@ -17,6 +23,6 @@ namespace POO_abstracao.classes
         //OBRIGATORIO ultilizar esse metodos nas classes herdeiras 
         //quando um método tem nele o (ABSTRACT)
 
-        public abstract string Desconto(int valor);
+      
     }
 }

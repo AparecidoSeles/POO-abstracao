@@ -10,15 +10,5 @@ namespace POO_abstracao.classes
         public void Pagar(float valor){
             System.Console.WriteLine("");
         }
-
-        //Método obrigatório por conta da super classe 
-        //com o método abstract
-        //muda abstract para override
-
-        public override string Desconto(int valor)
-        {
-            return "";
-        }
-
     }
 }

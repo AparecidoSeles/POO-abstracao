@@ -5,9 +5,9 @@ namespace POO_abstracao.classes
         //Atributos 
 
         public string bandeira =  "Visa";
-        public string numero;
-        public string titular;
-        public string cvv;
+        public string numero = "1343.1234.1234";
+        public string titular = "Aparecido de Seles Junior";
+        public string cvv = "776";
 
         //Métodos
 
@@ -19,9 +19,6 @@ namespace POO_abstracao.classes
         //com o método abstract
         //muda abstract para override
 
-        public override string Desconto(int valor)
-        {
-            return "";
-        }
+
     }
 }

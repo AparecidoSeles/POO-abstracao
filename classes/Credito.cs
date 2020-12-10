@@ -1,3 +1,5 @@
+using System;
+
 namespace POO_abstracao.classes
 {
     public class Credito : Cartao
@@ -11,16 +13,33 @@ namespace POO_abstracao.classes
         //Métodos
 
         public void Pagar(float valor){
-            System.Console.WriteLine("");
+            this.valor = valor;
+            if(valor <= limite){
+                //Efetuar pagamento
+                int parcelas;
+                do
+                {
+                      Console.WriteLine("Selecione a quantidade de parcelas 1 a 12: "); 
+                parcelas = int.Parse(Console.ReadLine());
+                } while (parcelas > 12);
+
+                float juros;
+                if (parcelas <=6){
+                    juros = 0.05f;
+                }
+                else{
+                     juros = 0.08f;
+                }
+              
+                float total = this.valor  + (this.valor * juros);
+                ExibirNota(this.titular, total);
+            }else{
+                Console.WriteLine("Sem limite");
+            }
         }
-
-        //Método obrigatório por conta da super classe 
-        //com o método abstract
-        //muda abstract para override
-
-        public override string Desconto(int valor)
-        {
-            return "";
+            void ExibirNota(string titular , float total){
+            Console.WriteLine($"Titular {titular} - Valor da compra = {total}");
+            
         }
     }
 }
